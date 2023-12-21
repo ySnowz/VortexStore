@@ -2,16 +2,16 @@
     {
         "id": 1,
         "name": "search",
-        "url": "./search.svg"
+        "url": "../Images/search.svg"
     },
     {
         "id": 2,
         "name": "user",
-        "url": "./user.svg"
+        "url": "../Images/user.svg"
     },
     {
         "id": 3,
         "name": "cart",
-        "url": "./cart.svg"
+        "url": "../Images/cart.svg"
     }
 ]

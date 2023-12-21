@@ -1,26 +1,26 @@
 [
     {
         "id": 1,
-        "url": "./ps4.png",
+        "url": "../Images/ps4.png",
         "name": "Ps4 Controller",
         "description":"Custom Scuf Ps4 Version",
         "price": 69.99,
-        "rating": "./rating.svg"
+        "rating": "../Images/rating.svg"
     },
     {
         "id": 2,
-        "url": "./xbox.png",
+        "url": "../Images/xbox.png",
         "name": "Xbox Controller",
         "description":"Red Xbox Controller Version",
         "price": 59.99,
-        "rating": "./rating.svg"
+        "rating": "../Images/rating.svg"
     },
     {
         "id": 3,
-        "url": "./scuf.png",
+        "url": "../Images/scuf.png",
         "name": "Scuf Controller",
         "description":"Custom Scuf Xbox Version",
         "price": 69.99,
-        "rating": "./rating.svg"
+        "rating": "../Images/rating.svg"
     }
 ]
