@@ -1,6 +1,5 @@
 import React from 'react'
 import productsStock from "../data/productsStock.json"
-import rating from "../assets/images/rating.svg"
 
 const Products = () => {
 
@@ -21,7 +20,7 @@ const Products = () => {
                         <figure className={ProductImageStyle}><img src={product.url} alt={product.name} /></figure>
                     </div>
                     <div className={ProductInfoStyle}>
-                        <img src={rating} alt="rating" />
+                        <img src={product.rating} alt="rating" />
                         <span className={ProductPriceStyle}>${product.price}</span>
                     </div>
                     <div className='flex flex-col items-start'>
