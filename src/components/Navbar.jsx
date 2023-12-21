@@ -14,7 +14,7 @@ const Navbar = () => {
     const RowContainerStyle = "w-full flex flex-row items-center px-4 py-2 bg-purple-50/50 drop-shadow-sm";
     const NavBarStyle = "w-full flex flex-row justify-between items-center p-2";
     const NavBarIconsStyle = "flex flex-row items-center justify-center gap-2";
-    const IconsStyle = "w-[25px] h-[25px] md:w-[25px] md:h-[25px] lg:w-[35px] lg:h-[35px]";
+    const IconsStyle = "w-[25px] h-[25px] md:w-[25px] md:h-[25px]";
     const CartQuantityStyle = "w-[25px] h-[25px] text-center text-white font-semibold rounded bg-gradient-to-b from-purple-400 to-purple-500 absolute left-[15px] top-[15px]";
     const logoStyle = "text-[16px] font-light uppercase tracking-widest text-slate-600";
     const textGradientStyle = "text-transparent bg-clip-text bg-gradient-to-br from-purple-400 to-purple-600";
