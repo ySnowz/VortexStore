@@ -1,6 +1,6 @@
 import React from 'react'
 import productsStock from "../data/productsStock.json"
-import rating from "../../public/rating.svg"
+import rating from "../assets/images/rating.svg"
 
 const Products = () => {
 
