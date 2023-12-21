@@ -1,0 +1,17 @@
+[
+    {
+        "id": 1,
+        "name": "search",
+        "url": "../../public/search.svg"
+    },
+    {
+        "id": 2,
+        "name": "user",
+        "url": "../../public/user.svg"
+    },
+    {
+        "id": 3,
+        "name": "cart",
+        "url": "../../public/cart.svg"
+    }
+]
