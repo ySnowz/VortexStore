@@ -1,25 +1,25 @@
 [
     {
         "id": 1,
-        "Url": "../Images/quality.svg",
+        "Url": "../../public/quality.svg",
         "name": "Quality",
         "description": "Top Quality Products. Excellence You Can Trust!"
     },
     {
         "id": 2,
-        "Url": "../Images/security.svg",
+        "Url": "../../public/security.svg",
         "name": "Security",
         "description": "Quality and Safe Products for You!"
     },
     {
         "id": 3,
-        "Url": "../Images/price.svg",
+        "Url": "../../public/price.svg",
         "name": "Price",
         "description": "Quality Products at Affordable Prices!"
     },
     {
         "id": 4,
-        "Url": "../Images/247.svg",
+        "Url": "../../public/247.svg",
         "name": "24/7",
         "description": "We're Here for You Anytime!"
     }
