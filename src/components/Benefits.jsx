@@ -1,7 +1,7 @@
 import React from 'react'
 import benefits from "../data/benefits.json"
 
-const ContainerCardStyle = "flex flex-row flex-wrap items-center justify-center gap-2"
+const ContainerCardStyle = "z-[-1] flex flex-row flex-wrap items-center justify-center gap-2"
 const CardStyle = "w-[130px] h-[130px] md:w-[200px] md:h-[200px] p-2 bg-purple-100/50 rounded-sm drop-shadow-sm flex flex-col gap-2 items-center justify-center";
 const CardImageStyle = "w-[40px] h-[40px] md:w-[75px] md:h-[75px]"
 const CardNameStyle = "text-center text-slate-700/75 text-[14px] md:text-lg font-semibold"

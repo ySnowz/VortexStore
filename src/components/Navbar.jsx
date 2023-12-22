@@ -18,7 +18,7 @@ const Navbar = () => {
     const CartQuantityStyle = "w-[25px] h-[25px] text-center text-white font-semibold rounded bg-gradient-to-b from-purple-400 to-purple-500 absolute left-[15px] top-[15px]";
     const logoStyle = "text-[16px] font-light uppercase tracking-widest text-slate-600";
     const textGradientStyle = "text-transparent bg-clip-text bg-gradient-to-br from-purple-400 to-purple-600";
-    const cartMenuStyle = "absolute top-0 left-0 w-full h-[90vh] bg-purple-50 p-4 duration-100 ease-in";
+    const cartMenuStyle = "absolute z-[9999] top-0 left-0 w-full h-[100vh] bg-purple-50 p-4 duration-100 ease-in";
     const ButtonStyle = "px-4 py-2 font-semibold rounded bg-gradient-to-b from-purple-400 to-purple-500 duration-100 linear hover:scale-105 active:scale-95 text-white"
 
     return (
@@ -39,16 +39,16 @@ const Navbar = () => {
                     ))}
 
                     {/* CART OPEN DIV */}
-                        {cartIsOpen == true &&
-                            <div className={cartMenuStyle}>
-                                <div className={`${RowContainerStyle} justify-between`}>
+                    {cartIsOpen == true &&
+                        <div className={cartMenuStyle}>
+                            <div className={`${RowContainerStyle} justify-between`}>
                                 <span className={logoStyle}>Y<span className={textGradientStyle}>O</span>UR ITEMS</span>
                                 <button onClick={() => handleOpenCart()} className={ButtonStyle}>X</button>
-                                </div>
                             </div>
+                        </div>
 
-                            /* CART ITEMS */
-                        }
+                        /* CART ITEMS */
+                    }
                 </div>
             </nav>
         </header>
